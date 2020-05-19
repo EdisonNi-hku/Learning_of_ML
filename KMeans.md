@@ -2,9 +2,11 @@
 ## 1. KMeans
 ### 1.1. [基本原理](https://www.jianshu.com/p/e4d5a0fbcefe)
 算法流程：
-![KMeans](./pictures/KMeans.png)
+![KMeans](./pictures/KMeans.PNG)
+
 由于初始簇中心选择，可能导致局部最优解：
 ![局部最优](./pictures/局部最优.png)
+
 解决方案：
 1. KMeans++:
 ![++](./pictures/KMeans++.png)
@@ -34,7 +36,7 @@ plt.xticks(ks)
 plt.show()
 ```
 其他指标：轮廓系数
-![轮廓](./pictures/轮廓.png)
+![轮廓](./pictures/轮廓.PNG)
 
 ### 1.2. 优缺点
 #### 1.2.1. 优点
