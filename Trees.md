@@ -1,4 +1,4 @@
-# Notes about regular-used algorithm
+# Notes about regular-used tree algorithms
 ## 1. Decision Tree
 ### 1.1. 基本原理
 
