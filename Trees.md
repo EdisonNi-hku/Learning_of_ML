@@ -177,3 +177,12 @@ GBDT 直观理解：每一轮预测和实际值有残差，下一轮根据残差
 1. n_estimator
 2. learning_rate, 用于控制每棵树对前一棵树的错误的纠正强度。(与n_estimator高度相关)
 3. max_depth（max_leaf_nodes）用于降低每棵树的复杂度
+
+## 5. XGBoost
+#### 5.1. 基本原理
+XGBoost和GBDT比较大的不同是目标函数的定义
+![目标函数](./pictures/目标函数.png)
+每个函数就是一棵树：
+![Boost](./pictures/Boost.png)
+训练时，新的一轮加入一个新的f函数，来最大化的降低目标函数，在第t轮，我们的目标函数为
+![目标函数1](./pictures/目标函数1.png)
