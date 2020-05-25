@@ -158,7 +158,7 @@ CART回归树生成算法：
 2. 提升树
 GBDT 直观理解：每一轮预测和实际值有残差，下一轮根据残差再进行预测，最后将所有预测相加，就是结果。
 ![提升树](./pictures/提升树.jpg)
-![树加法](./pictures/树加法.png)
+![树加法](./pictures/树加法.PNG)
 运算逻辑如下：
 ![](./pictures/GBDT1.png)
 ![](./pictures/GBDT2.png)
